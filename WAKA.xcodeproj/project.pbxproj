@@ -15,6 +15,10 @@
 		C86187D223C57070001D01DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C86187D023C57070001D01DA /* LaunchScreen.storyboard */; };
 		C86187DD23C57070001D01DA /* WAKATests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86187DC23C57070001D01DA /* WAKATests.swift */; };
 		C86187E823C57070001D01DA /* WAKAUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86187E723C57070001D01DA /* WAKAUITests.swift */; };
+		C86187F623C5718C001D01DA /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86187F523C5718C001D01DA /* FeedViewController.swift */; };
+		C86187F823C5790E001D01DA /* CardsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86187F723C5790E001D01DA /* CardsTableViewCell.swift */; };
+		C86187FA23C57E3C001D01DA /* GameTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86187F923C57E3C001D01DA /* GameTableViewCell.swift */; };
+		C86187FC23C580A5001D01DA /* BetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C86187FB23C580A5001D01DA /* BetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		C86187E323C57070001D01DA /* WAKAUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WAKAUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C86187E723C57070001D01DA /* WAKAUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WAKAUITests.swift; sourceTree = "<group>"; };
 		C86187E923C57070001D01DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C86187F523C5718C001D01DA /* FeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
+		C86187F723C5790E001D01DA /* CardsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardsTableViewCell.swift; sourceTree = "<group>"; };
+		C86187F923C57E3C001D01DA /* GameTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameTableViewCell.swift; sourceTree = "<group>"; };
+		C86187FB23C580A5001D01DA /* BetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BetViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -102,6 +110,10 @@
 				C86187C523C5706C001D01DA /* AppDelegate.swift */,
 				C86187C723C5706C001D01DA /* SceneDelegate.swift */,
 				C86187C923C5706D001D01DA /* ViewController.swift */,
+				C86187F523C5718C001D01DA /* FeedViewController.swift */,
+				C86187F723C5790E001D01DA /* CardsTableViewCell.swift */,
+				C86187F923C57E3C001D01DA /* GameTableViewCell.swift */,
+				C86187FB23C580A5001D01DA /* BetViewController.swift */,
 				C86187CB23C5706D001D01DA /* Main.storyboard */,
 				C86187CE23C57070001D01DA /* Assets.xcassets */,
 				C86187D023C57070001D01DA /* LaunchScreen.storyboard */,
@@ -260,8 +272,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				C86187CA23C5706D001D01DA /* ViewController.swift in Sources */,
+				C86187F823C5790E001D01DA /* CardsTableViewCell.swift in Sources */,
+				C86187FC23C580A5001D01DA /* BetViewController.swift in Sources */,
 				C86187C623C5706C001D01DA /* AppDelegate.swift in Sources */,
+				C86187F623C5718C001D01DA /* FeedViewController.swift in Sources */,
 				C86187C823C5706C001D01DA /* SceneDelegate.swift in Sources */,
+				C86187FA23C57E3C001D01DA /* GameTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
